@@ -184,6 +184,7 @@ $ sudo apt-get install build-essential python-rosdep python-catkin-tools
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws
 $ catkin init
 $ git clone https://github.com/AutonomyLab/bebop_autonomy.git src/bebop_autonomy
+$ git checkout -b dev/sphinx
 # Update rosdep database and install dependencies (including parrot_arsdk)
 $ rosdep update
 $ rosdep install --from-paths src -i
