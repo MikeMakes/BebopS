@@ -172,7 +172,7 @@ Simulated drones may use the host system wifi interface to communicate with the 
 $ sphinx --datalog /opt/parrot-sphinx/usr/share/sphinx/drones/bebop2.drone
 ```
 
-before simulating, the stolen interface needs to be configured. For further details, take a look at the [Parrot-Sphinx documentation](https://developer.parrot.com/docs/sphinx/firststep.html). 
+before simulating, the stolen interface needs to be configured. For further details, take a look at the [Parrot-Sphinx documentation](https://developer.parrot.com/docs/sphinx/firststep.html). You can disable WiFi capabilities by commenting out the <stolen_interface ...> tag in `.drone`.
 
 > Note: As it is the first time Sphinx is started with this `.drone` file, it may take several seconds to download the drone firmware from the external server. Once the firmware is loaded, the simulation starts.
 
