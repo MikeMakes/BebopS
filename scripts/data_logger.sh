@@ -15,5 +15,5 @@
 # limitations under the License.
 #
 #
-cd ~/bebop_ws/src/BebopS/scripts/
+cd ~/bebop/src/BebopS/scripts/
 sh data_logger_publishing.awk
